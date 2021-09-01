@@ -7,6 +7,7 @@ At first we need to finish below tasks
 
 - Build Airflow and Postgres image on docker windows using docker-compose.
 - Create Reshift cluster using AWS console.
+- upload divvy trips dataset files [Link to files](https://divvy-tripdata.s3.amazonaws.com/index.html)(pick any year) to S3 bucket. my bucket location is s3://udacity-dend/data-pipelines
 
 ## Step 1
 
@@ -57,6 +58,22 @@ At first we need to finish below tasks
 
 ### Host is cluster end-point
    
-  <p align="middle">
+ <p align="middle">
   <img src="images/redshift.PNG" />
-    
+ 
+## Step 4
+
+Switch on the dags in Airflow and verify tables are created in AWS redshift or not.
+
+<p align="middle">
+  <img src="images/redshift-tables.PNG" />
+  
+As you see our divvy trips tables are created in redshift as per sql_statements file which is present in /dags/modules folder
+  
+## Step 5 
+  
+### Verfiy the data loaded in redshift tables.
+  
+<p align="middle">
+  <img src="images/data-loaded.PNG" />
+
