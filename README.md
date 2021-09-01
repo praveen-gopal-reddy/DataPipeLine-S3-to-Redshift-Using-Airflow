@@ -67,7 +67,7 @@ At first we need to finish below tasks
 Switch on the dags in Airflow and verify tables are created in AWS redshift or not.
 
 <p align="middle">
-  <img src="images/redshift-tables.PNG" />
+  <img src="images/redshift-tables.png" />
   
 As you see our divvy trips tables are created in redshift as per sql_statements file which is present in /dags/modules folder
   
