@@ -10,19 +10,19 @@ At first we need to finish below tasks
 
 ## Step 1
 
-Build Airflow image using docker-compose up command
+### Build Airflow image using docker-compose up command
 
 <p align="middle">
   <img src="images/airflow.PNG" />
   
-Open Airflow GUI, you will see something like this about datapipeline.
+### Open Airflow GUI, you will see something like this about datapipeline.
 
 <p align="middle">
   <img src="images/dag.PNG" />
   
 ## Step 2
 
-Create AWS Redshift cluster using AWS console.
+### Create AWS Redshift cluster using AWS console.
   
 <p align="middle">
   <img src="images/cluster-creation-1.PNG" />
@@ -30,12 +30,12 @@ Create AWS Redshift cluster using AWS console.
  <p align="middle">
   <img src="images/cluster-creation-2.PNG" />
    
- Cluster Details. 
+ ### Cluster Details. 
  
  <p align="middle">
   <img src="images/cluster-creation-1.PNG" />
  
-  Add cluster permission to read S3 buckets. I have created redshifts3 role as shown below.
+ ### Add cluster permission to read S3 buckets. I have created redshifts3 role as shown below.
    
  <p align="middle">
   <img src="images/cluster-creation-2.PNG" />
@@ -43,19 +43,19 @@ Create AWS Redshift cluster using AWS console.
   <p align="middle">
   <img src="images/create-role-s3.PNG" />
     
-  final cluster details 
+ ### final cluster details 
     
-     <p align="middle">
+ <p align="middle">
   <img src="images/cluster-details.PNG" />
    
 ## Step 3
 
-Add AWS and Redshift credentials in Airflow. In aws_credentials, login is your Iam user access key id and password is secret access key.
+### Add AWS and Redshift credentials in Airflow. In aws_credentials, login is your Iam user access key id and password is secret access key.
     
  <p align="middle">
   <img src="images/aws-credentials.PNG" />
 
- Host is cluster end-point
+### Host is cluster end-point
    
   <p align="middle">
   <img src="images/redshift.PNG" />
