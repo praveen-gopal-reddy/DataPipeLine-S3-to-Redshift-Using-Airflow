@@ -33,7 +33,7 @@ Create AWS Redshift cluster using AWS console.
  Cluster Details. 
  
  <p align="middle">
-  <img src="images/cluster-details-1.PNG" />
+  <img src="images/cluster-creation-1.PNG" />
  
   Add cluster permission to read S3 buckets. I have created redshifts3 role as shown below.
    
@@ -42,6 +42,11 @@ Create AWS Redshift cluster using AWS console.
    
   <p align="middle">
   <img src="images/create-role-s3.PNG" />
+    
+  final cluster details 
+    
+     <p align="middle">
+  <img src="images/cluster-details.PNG" />
    
 ## Step 3
 
@@ -53,5 +58,5 @@ Add AWS and Redshift credentials in Airflow. In aws_credentials, login is your I
  Host is cluster end-point
    
   <p align="middle">
-  <img src="images/create-role-s3.PNG" />
+  <img src="images/redshift.PNG" />
     
