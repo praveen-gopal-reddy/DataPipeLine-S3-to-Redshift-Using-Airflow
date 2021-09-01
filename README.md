@@ -2,11 +2,12 @@
 
 # Overview
 
-In this project, we will looad divvy trips dataset present in S3 to AWS redshift with the help of Airflow and Docker. Divvy is Chicago's bike share system that provides a fast and convenient way to get around without having your own bike
+In this project, we will load divvy trips dataset present in S3 to AWS redshift with the help of Airflow. Divvy is Chicago's bike share system that provides a fast and convenient way to get around without having your own bike.
+
 At first we need to finish below tasks
 
 - Build Airflow and Postgres image on docker windows using docker-compose.
-- Create Reshift cluster using AWS console.
+- Create Redshift cluster using AWS console.
 - upload divvy trips dataset files [Link to files](https://divvy-tripdata.s3.amazonaws.com/index.html)(pick any year) to S3 bucket. my bucket location is s3://udacity-dend/data-pipelines
 
 ## Step 1
